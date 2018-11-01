@@ -1,15 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
 .header {
     background-image: url("../images/head.png");
-    width: 100%;
     background-size: cover;
     background-position: center;
-    height: 590px;//todo remove
+    padding: 5% 20%;
+    text-align: center;
 }
 
 body {
     margin: 0;
 }
 
-.logo {
-    margin: 65px 343px;
+.link {
+    transition: .5s ease;
+
 }
+
+.link:hover {
+    transform: scale(1.5);
+    filter: blur(5px);
+}
+
+.text {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.nav-bar .text {
+    margin: 0 2%;
+}
+
+.nav-bar {
+    margin: 5% 0;
+}
+
+.head-title {
+    font-size: 6em;
+    font-weight: bold;
+}
+
+.head-separator {
+     font-size: 1em;
+     font-weight: bold;
+    margin: 5% 0;
+ }
+
+.head-separator:before, .head-separator:after{
+    content: "";
+    border-top: 1px solid white;
+    width: 25%;
+    margin: 0 5%;
+    transform: translateY(-0.3em);
+    opacity: 0.5;
+    display: inline-block;
+}
+
+.button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
