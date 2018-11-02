@@ -59,12 +59,21 @@ body {
 }
 
 .button {
-    -webkit-transition-duration: 0.4s; /* Safari */
+    background-color: #50c3af;
+    border: none;
+    border-radius: 50px;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    cursor: pointer;
+    font-weight: bold;
     transition-duration: 0.4s;
 }
 
 .button:hover {
-    background-color: #4CAF50; /* Green */
-    color: white;
+    background-color: #79b2a8;
+    transform: scale(1.1);
 }
 
