@@ -14,7 +14,7 @@ body {
 
 .link {
     transition: .5s ease;
-
+    text-decoration: none;
 }
 
 .link:hover {
@@ -49,6 +49,7 @@ body {
 .nav-bar .white-text {
     margin: 0 2%;
     font-size: 13px;
+    font-weight: bold;
 }
 
 .nav-bar {
@@ -155,5 +156,18 @@ body {
 
 .photo-small {
     max-width: 180px;
+}
+
+.blue-link {
+    color: #50c3af;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 30px 0;
+    display: block;
+}
+
+.blue-link:after {
+    content: ">";
+    margin-left: 5px;
 }
 
