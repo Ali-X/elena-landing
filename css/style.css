@@ -14,7 +14,7 @@
     background-image: url("../images/head.png");
     background-size: cover;
     background-position: center;
-    padding: 5% 20%;
+    padding: 65px 20% 120px 20%;
     text-align: center;
 }
 
@@ -237,7 +237,7 @@ body {
     color: var(--blue-color);
     font-size: 14px;
     font-weight: bold;
-    margin: 30px 0;
+    margin-top: 30px;
     display: block;
 }
 
@@ -298,12 +298,16 @@ body {
     padding: 18px 45px;
     text-decoration: none;
     font-size: 15px;
-    margin-top: 5%;
-    margin-bottom: 10%;
+    /*margin-top: 5%;*/
+    /*margin-bottom: 10%;*/
     cursor: pointer;
     font-weight: bold;
     transition-duration: 0.4s;
     display: inline-block;
+}
+
+.big-button {
+    margin-top: 85px;
 }
 
 .button.disabled {
@@ -320,7 +324,7 @@ body {
     border-radius: 50px;
     padding: 14px 17px;
     font-size: 14px;
-    margin: 36px 0;
+    margin-top: 36px;
     font-weight: unset;
 }
 
