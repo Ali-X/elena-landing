@@ -98,11 +98,26 @@ body {
 }
 
 /*container style*/
-.logo-container {
+.logo-container-users {
+    background-image: url("../images/icons/users.png");
+}
+
+.logo-container-heart {
+    background-image: url("../images/icons/heart.png");
+}
+
+.logo-container-headset {
+    background-image: url("../images/icons/headset.png");
+}
+
+[class*='logo-container-'] {
     height: 40px;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 30px;
 }
 
 [class*='photo-container-'] {
@@ -154,7 +169,6 @@ body {
 .grey-text {
     color: var(--dark-grey-font-color);
     font-weight: bold;
-    margin: 5% 0;
     font-size: 16px;
 }
 
