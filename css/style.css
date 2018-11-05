@@ -303,13 +303,14 @@ body {
     cursor: pointer;
     font-weight: bold;
     transition-duration: 0.4s;
+    display: inline-block;
 }
 
-.button[disabled] {
+.button.disabled {
     background-color: var(--disabled-button-color);
 }
 
-.button[disabled]:hover {
+.button.disabled:hover {
     background-color: var(--disabled-button-color);
     transform: none;
     cursor: not-allowed;
