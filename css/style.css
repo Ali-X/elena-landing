@@ -155,6 +155,7 @@ body {
 
 .photo-container {
   overflow: hidden;
+  margin-bottom: 40px;
 }
 
 .photo-container-small {
