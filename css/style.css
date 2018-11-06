@@ -81,8 +81,36 @@ body {
   width: 100%;
 }
 
-.block-small {
+.block-small.icon {
   max-width: 160px;
+}
+
+.block-medium.photo-two {
+  max-width: 260px;
+}
+
+.block-medium.photo-text-two {
+  max-width: 265px;
+}
+
+.block-medium.photo-text-two.first {
+  margin-right: 35px;
+}
+
+.block-medium.text-two {
+  max-width: 250px;
+}
+
+.block-medium.text-two.first {
+  margin-right: 80px;
+}
+
+.block-small.photo-three {
+  max-width: 180px;
+}
+
+.block-medium.photo-two.first {
+  margin-right: 60px;
 }
 
 .block-small.center {
@@ -127,12 +155,10 @@ body {
 
 .photo-container-small {
   height: 140px;
-  width: 180px;
 }
 
 .photo-container-medium {
   height: 170px;
-  width: 260px;
 }
 
 .photo-container-x-medium {
@@ -357,4 +383,12 @@ body {
 
 .socials ul {
   margin: 0;
+}
+
+.margin-block-small {
+  margin: 0 45px;
+}
+
+.margin-block-small-photo {
+  margin: 0 21px;
 }
