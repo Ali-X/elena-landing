@@ -91,6 +91,7 @@ body {
 
 .block-medium.photo-text-two {
   max-width: 265px;
+  vertical-align: top;
 }
 
 .block-medium.photo-text-two.first {
@@ -125,6 +126,14 @@ body {
   max-width: inherit;
 }
 
+.margin-block-small {
+  margin: 0 45px;
+}
+
+.margin-block-small-photo {
+  margin: 0 21px;
+}
+
 /*container style*/
 .logo-container-users {
   background-image: url("../images/icons/users.png");
@@ -146,11 +155,7 @@ body {
 }
 
 .photo-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   overflow: hidden;
-  margin-bottom: 40px;
 }
 
 .photo-container-small {
@@ -383,12 +388,4 @@ body {
 
 .socials ul {
   margin: 0;
-}
-
-.margin-block-small {
-  margin: 0 45px;
-}
-
-.margin-block-small-photo {
-  margin: 0 21px;
 }
