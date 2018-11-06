@@ -51,7 +51,7 @@ body {
   margin: 0;
 }
 
-[class*="-section"] {
+.section {
   padding: 60px 0;
 }
 
@@ -73,7 +73,7 @@ body {
 }
 
 /*block style*/
-[class*='block-'] {
+.block {
   display: inline-block;
   text-align: left;
   width: 100%;
@@ -108,14 +108,14 @@ body {
   background-image: url("../images/icons/headset.png");
 }
 
-[class*='logo-container-'] {
+.logo-container {
   height: 40px;
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30px;
 }
 
-[class*='photo-container-'] {
+.photo-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -173,7 +173,7 @@ body {
   font-weight: bold;
 }
 
-[class*='-icon-text']:before {
+.icon-text:before {
   content: "";
   display: block;
   background-size: contain;
@@ -258,7 +258,7 @@ body {
   margin: 3% 0;
 }
 
-[class*="separator-"] {
+.separator {
   width: 100%;
   display: inline-block;
   height: 2px;
@@ -269,11 +269,11 @@ body {
   background-image: linear-gradient(90deg, var(--separator-color), transparent);
 }
 
-.separator-plane {
+.separator-plain {
   background-color: var(--separator-color);
 }
 
-.green-section .separator-plane {
+.green-section .separator-plain {
   opacity: 0.1;
 }
 
