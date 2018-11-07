@@ -387,3 +387,11 @@ body {
 .socials ul {
   margin: 0;
 }
+
+.photo-horizontal {
+  height: 100%;
+}
+
+.photo-vertical {
+  width: 100%;
+}
